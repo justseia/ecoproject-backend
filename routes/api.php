@@ -14,6 +14,10 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::middleware('auth:sanctum')->get('/user', function (Request $request) {
-    return $request->user();
+Route::middleware('auth:sanctum')->group(function () {
+    Route::get('/posts', \App\Http\Controllers\API\Post\IndexController::class);
+    Route::get('/posts/{post}', \App\Http\Controllers\API\Post\ShowController::class);
+
+    Route::get('/blogs', \App\Http\Controllers\API\Blog\IndexController::class);
+    Route::get('/blogs/{blog}', \App\Http\Controllers\API\Blog\ShowController::class);
 });

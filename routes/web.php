@@ -1,5 +1,6 @@
 <?php
 
+use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -13,6 +14,16 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
+Route::get('/', \App\Http\Controllers\WEB\Post\IndexController::class);
+
+//Route::get('/posts', \App\Http\Controllers\WEB\Post\IndexController::class);
+Route::get('/posts/{post}', \App\Http\Controllers\WEB\Post\ShowController::class);
+
+Route::get('/blogs', \App\Http\Controllers\WEB\Blog\IndexController::class);
+Route::get('/blogs/{blog}', \App\Http\Controllers\WEB\Blog\ShowController::class);
+
+Route::middleware('auth')->group(function () {
+
 });
+
+Auth::routes();
