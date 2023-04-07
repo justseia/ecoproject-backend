@@ -9,3 +9,8 @@ exec:
 
 f:
 	php artisan migrate:fresh --seed
+
+git:
+	git add .
+	git commit -m 'update'
+	git push
