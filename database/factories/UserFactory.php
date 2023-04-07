@@ -20,7 +20,7 @@ class UserFactory extends Factory
     {
         return [
             'full_name' => 'Aidana',
-            'email' => '27777@iitu.edu.kz',
+            'email' => 'aidana@gmail.com',
             'password' => Hash::make('asdasdasd'),
             'image' => 'https://api.dicebear.com/6.x/thumbs/png?seed=Buster',
             'remember_token' => Str::random(10),

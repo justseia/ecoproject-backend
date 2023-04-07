@@ -7,5 +7,5 @@ down:
 exec:
 	docker exec -it ecoproject_app bash
 
-fresh:
+f:
 	php artisan migrate:fresh --seed
