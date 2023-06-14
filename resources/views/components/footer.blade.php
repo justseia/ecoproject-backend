@@ -7,7 +7,7 @@
 						<div class="grid md:grid-cols-12 grid-cols-1 gap-[30px]">
 							<div class="lg:col-span-4 md:col-span-12">
 								<a href="#" class="text-[22px] focus:outline-none">
-									<img src="{{asset('assets/images/logo-light.png')}}" class="h-[24px]" alt="">
+									<img src="{{asset('assets/images/logo.png')}}" class="h-[54px]" alt="">
 								</a>
 								<p class="mt-6 text-gray-300">A great plateform to buy, sell and rent your properties without any agent or commisions.</p>
 							</div>

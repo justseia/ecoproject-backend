@@ -2,7 +2,7 @@
 	<nav id="topnav" class="defaultscroll is-sticky bg-white dark:bg-slate-900">
 		<div class="container-fluid md:px-8 px-3">
 			<a class="logo" href="{{ route('home.index') }}">
-				<img src="{{asset('assets/images/logo-dark.png')}}" class="inline-block dark:hidden h-[24px]" alt="">
+				<img src="{{asset('assets/images/logo.png')}}" class="inline-block dark:hidden h-[64px]" alt="">
 				<img src="{{asset('assets/images/logo-light.png')}}" class="hidden dark:inline-block h-[24px]" alt="">
 			</a>
 			<div class="menu-extras">
@@ -31,6 +31,7 @@
 			<div id="navigation">
 				<ul class="navigation-menu justify-center">
 					<li><a href="{{ route('home.index') }}" class="sub-menu-item">Home</a></li>
+                    <li><a href="{{ route('case.index') }}" class="sub-menu-item">Case</a></li>
 					<li><a href="{{ route('blog.index') }}" class="sub-menu-item">Blog</a></li>
 					<li><a href="{{ route('about.index') }}" class="sub-menu-item">About</a></li>
 					<li><a href="{{ route('contact.index') }}" class="sub-menu-item">Contact</a></li>

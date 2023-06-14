@@ -7,7 +7,7 @@
 	<meta name="csrf-token" content="{{ csrf_token() }}">
 	<title>{{ config('app.name', 'Laravel') }}</title>
 	@vite('resources/css/app.css')
-	<link href="{{asset('assets/images/favicon.ico')}}" rel="shortcut icon"/>
+	<link href="{{asset('assets/images/favicon.png')}}" rel="shortcut icon"/>
 	<link href="{{asset('assets/libs/tiny-slider/tiny-slider.css')}}" rel="stylesheet">
 	<link href="{{asset('assets/libs/tobii/css/tobii.min.css')}}" rel="stylesheet">
 	<link href="{{asset('assets/libs/choices.js/public/assets/styles/choices.min.css')}}" rel="stylesheet">

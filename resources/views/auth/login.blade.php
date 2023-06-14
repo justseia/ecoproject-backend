@@ -7,7 +7,7 @@
         <div class="container z-3">
             <div class="flex justify-center">
                 <div class="max-w-[400px] w-full m-auto p-6 bg-white dark:bg-slate-900 shadow-md dark:shadow-gray-700 rounded-md">
-                    <a href="{{ route('home.index') }}"><img src="{{asset('assets/images/logo-icon-64.png')}}" class="mx-auto" alt=""></a>
+                    <a href="{{ route('home.index') }}"><img src="{{asset('assets/images/favicon.png')}}" class="h-[80px] mx-auto" alt=""></a>
                     <h5 class="my-6 text-xl font-semibold">Login</h5>
                     <form action="{{ route('login') }}" method="post" class="ltr:text-left rtl:text-right">
                         @csrf

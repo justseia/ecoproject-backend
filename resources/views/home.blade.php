@@ -38,8 +38,7 @@
 				<div class="md:col-span-7">
 					<div class="ltr:lg:ml-4 rtl:lg:mr-4">
 						<h4 class="mb-6 md:text-3xl text-2xl lg:leading-normal leading-normal font-semibold">Efficiency. Transparency. <br> Control.</h4>
-						<p class="text-slate-400 max-w-xl">Hously developed a platform for the Real Estate marketplace that allows buyers and sellers to easily execute a transaction on their own. The platform drives efficiency, cost transparency and control into the hands of the consumers. Hously is Real Estate Redefined.</p>
-
+						<p class="text-slate-400 max-w-xl">At a time when climate change is a real and pressing concern, it is more important than ever to take care of our planet. We believe that small changes in our daily lives can make a big difference in the long run. That's why we offer tips and resources to help individuals, families, and businesses become more eco-conscious.</p>
 						<div class="mt-4">
 							<a href="" class="btn bg-green-600 hover:bg-green-700 text-white rounded-md mt-3">Learn More </a>
 						</div>
@@ -94,14 +93,14 @@
 		<div class="container lg:mt-24 mt-16">
 			<div class="grid grid-cols-1 pb-8 text-center">
 				<h3 class="mb-4 md:text-3xl md:leading-normal text-2xl leading-normal font-semibold">Featured Properties</h3>
-				<p class="text-slate-400 max-w-xl mx-auto">A great plateform to buy, sell and rent your properties without any agent or commisions.</p>
+				<p class="text-slate-400 max-w-xl mx-auto">A great plateform to eco.</p>
 			</div>
 			<div class="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 mt-8 gap-[30px]">
 
 				{{--repeat--}}
 				<div class="group rounded-xl bg-white dark:bg-slate-900 shadow hover:shadow-xl dark:hover:shadow-xl dark:shadow-gray-700 dark:hover:shadow-gray-700 overflow-hidden ease-in-out duration-500">
 					<div class="relative">
-						<img src="{{asset('assets/images/property/1.jpg')}}" alt="">
+						<img src="https://picsum.photos/seed/picsum/400/300" alt="">
 						<div class="absolute top-4 ltr:right-4 rtl:left-4">
 							<a href="javascript:void(0)" class="btn btn-icon bg-white dark:bg-slate-900 shadow dark:shadow-gray-700 rounded-full text-slate-100 dark:text-slate-700 focus:text-red-600 dark:focus:text-red-600 hover:text-red-600 dark:hover:text-red-600"><i class="mdi mdi-heart mdi-18px"></i></a>
 						</div>
@@ -165,7 +164,6 @@
 						<div class="tiny-slide">
 							<div class="text-center">
 								<p class="text-xl text-slate-400 italic"> " Hously made the processes so easy. Hously instantly increased the amount of interest and ultimately saved us over $10,000. " </p>
-
 								<div class="text-center mt-5">
 									<ul class="text-xl font-medium text-amber-400 list-none mb-2">
 										<li class="inline"><i class="mdi mdi-star"></i></li>
@@ -188,9 +186,7 @@
 		<div class="container lg:mt-24 mt-16">
 			<div class="grid grid-cols-1 text-center">
 				<h3 class="mb-6 md:text-3xl text-2xl md:leading-normal leading-normal font-medium text-black dark:text-white">Have Question ? Get in touch!</h3>
-
 				<p class="text-slate-400 max-w-xl mx-auto">A great plateform to buy, sell and rent your properties without any agent or commisions.</p>
-
 				<div class="mt-6">
 					<a href="{{ route('contact.index') }}" class="btn bg-green-600 hover:bg-green-700 text-white rounded-md"><i class="uil uil-phone align-middle ltr:mr-2 rtl:ml-2"></i> Contact us</a>
 				</div>

@@ -7,14 +7,14 @@
 		<div class="container z-3">
 			<div class="flex justify-center">
 				<div class="max-w-[400px] w-full m-auto p-6 bg-white dark:bg-slate-900 shadow-md dark:shadow-gray-700 rounded-md">
-					<a href="{{ route('home.index') }}"><img src="{{asset('assets/images/logo-icon-64.png')}}" class="mx-auto" alt=""></a>
+					<a href="{{ route('home.index') }}"><img src="{{asset('assets/images/favicon.png')}}" class="mx-auto h-[80px]" alt=""></a>
 					<h5 class="my-6 text-xl font-semibold">Signup</h5>
 					<form action="{{ route('register') }}" method="post" class="ltr:text-left rtl:text-right">
 						@csrf
 						<div class="grid grid-cols-1">
 							<div class="mb-4">
 								<label class="font-semibold" for="RegisterName">Your FullName:</label>
-								<input name="full_name" id="RegisterName" type="text" class="form-input mt-3" placeholder="Harry Potter">
+								<input name="full_name" id="RegisterName" type="text" class="form-input mt-3" placeholder="Useinova Arailym">
 							</div>
 							<div class="mb-4">
 								<label class="font-semibold" for="LoginEmail">Email Address:</label>

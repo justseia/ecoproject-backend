@@ -24,6 +24,8 @@ Route::get('/blogs', \App\Http\Controllers\WEB\Blog\IndexController::class)->nam
 Route::get('/blogs/{blog}', \App\Http\Controllers\WEB\Blog\ShowController::class)->name('blog.show');
 Route::post('/blogs', \App\Http\Controllers\WEB\Blog\IndexController::class)->name('blog.store');
 
+Route::get('/cases', \App\Http\Controllers\WEB\Case\IndexController::class)->name('case.index');
+
 Route::get('/about', \App\Http\Controllers\WEB\About\IndexController::class)->name('about.index');
 Route::get('/contact', \App\Http\Controllers\WEB\Contact\IndexController::class)->name('contact.index');
 

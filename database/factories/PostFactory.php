@@ -17,10 +17,10 @@ class PostFactory extends Factory
     public function definition(): array
     {
         return [
-            'title' => fake()->title(),
-            'body' => fake()->title(),
+            'title' => fake()->text(),
+            'body' => fake()->text(),
             'location' => fake()->locale(),
-            'image' => 'https://picsum.photos/seed/picsum/400/300',
+            'image' => 'https://picsum.photos/seed/picsum/400/500',
         ];
     }
 }
